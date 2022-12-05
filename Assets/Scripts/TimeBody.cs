@@ -23,9 +23,9 @@ public class TimeBody : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Space))
             StartRewind();
-        if (Input.GetKeyUp(KeyCode.Return))
+        if (Input.GetKeyUp(KeyCode.Space))
             //rb.velocity = Vector2.zero;
             StopRewind();
     }

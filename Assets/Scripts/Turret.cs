@@ -6,6 +6,10 @@ public class Turret : MonoBehaviour
 {
     public Transform barrel;
     public float shootingDistance;
+    public GameObject Wie¿aBullet;
+    public float FireRate;
+    float nextTimeToFire;
+
 
     private Transform player;
 
